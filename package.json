@@ -1,0 +1,27 @@
+{
+  "author": "MarjoryLangosh",
+  "name": "reiciendisminus",
+  "description": "GZIP in pure JavaScript (works in the browser)",
+  "version": "1.0.0",
+  "license": "GPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IsobelRosenbaum/reiciendisminus.git"
+  },
+  "main": "./lib/gzip.js",
+  "bin": {
+    "gzip-js": "./bin/gzip.js",
+    "gunzip-js": "./bin/gunzip.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "crc32": ">= 0.2.2",
+    "deflate-js": ">= 0.2.2"
+  },
+  "devDependencies": {
+    "optimist": "~0.2"
+  },
+  "homepage": "https://github.com/IsobelRosenbaum/reiciendisminus.git"
+}
